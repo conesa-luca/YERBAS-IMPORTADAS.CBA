@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap">
+
+    <title>Carrito de Compras - Yerbas Mate</title>
+    <h1 class="page-title">Yerbas Importadas CBA</h1>
+    <p class="subtitle">Tu mejor opción para comprar yerba mate de calidad.</p>
+           <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="confirmar-pago.html">pagar</a></li>
+            </ul>
+        </nav>
+</head>
+    <section class="contact-form">
+        <div class="container">
+            <h2 class="contactito">Contacto</h2>
+            <p class="contactito">¿Tienes alguna pregunta o comentario? ¡Estamos aquí para ayudarte!</p>
+            
+            <form id="contactoForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+                
+                <label for="pais">País:</label>
+                <input type="text" id="pais" name="pais" required>
+                
+                <label for="motivo">Motivo de Contacto:</label>
+                <select id="motivo" name="motivo">
+                    <option value="consulta">Consulta</option>
+                    <option value="soporte">Soporte Técnico</option>
+                    <option value="reclamo">Reclamo</option>
+                </select>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                <span class="spinner"></span
+            </form>
+        </div>
+    </section>
+
+    <section class="support-info">
+        <div class="container">
+            <h2 class="contactito">Soporte Técnico</h2>
+            <p class="contactito">Para obtener asistencia técnica, comunícate con nuestro equipo de soporte al <strong>+543514088669</strong> o envía un correo electrónico a <a href="mailto:soporte@yerbasimportadas.com">soporte@yerbasimportadas.com</a>.</p>
+        </div>
+    </section>
+
+    <section class="response-time">
+        <div class="container">
+            <h2>Tiempo Estimado de Respuesta</h2>
+            <p>Nuestro equipo se esfuerza por responder a tus consultas en un plazo de 24 a 48 horas hábiles. Agradecemos tu paciencia mientras trabajamos para brindarte la mejor atención.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Yerbas Importadas CBA. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

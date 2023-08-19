@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap">
+
+    <title>Carrito de Compras - Yerbas Mate</title>
+    <h1 class="page-title">Yerbas Importadas CBA</h1>
+    <p class="subtitle">Tu mejor opción para comprar yerba mate de calidad.</p>
+           <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="confirmar-pago.html">pagar</a></li>
+            </ul>
+        </nav>
+</head>
+    <section class="product-list">
+        <div class="product">
+            <img src="yerba1.jpg" alt="Yerba Tradicional">
+            <h3>Yerba Tradicional</h3>
+            <p>Nacionalidad: Argentina</p>
+            <p>Precio: $9.99</p>
+            <p>Calidad: Buena</p>
+            <p>Peso: 500g</p>
+            <button class="add-to-cart" data-nombre="Yerba Tradicional" data-precio="9.99">Agregar al Carrito</button>
+        </div>
+        <div class="product">
+            <img src="yerba2.jpg" alt="Yerba Suave">
+            <h3>Yerba Suave</h3>
+            <p>Nacionalidad: Paraguaya</p>
+            <p>Precio: $8.49</p>
+            <p>Calidad: Suave</p>
+            <p>Peso: 400g</p>
+            <button class="add-to-cart" data-nombre="Yerba Suave" data-precio="8.49">Agregar al Carrito</button>
+        </div>
+        <div class="product">
+            <img src="yerba3.jpg" alt="Yerba Intensa">
+            <h3>Yerba Intensa</h3>
+            <p>Nacionalidad: Uruguay</p>
+            <p>Precio: $11.99</p>
+            <p>Calidad: Intensa</p>
+            <p>Peso: 350g</p>
+            <button class="add-to-cart" data-nombre="Yerba Intensa" data-precio="11.99">Agregar al Carrito</button>
+        </div>
+        <div class="product">
+            <img src="yerba4.jpg" alt="Yerba Orgánica">
+            <h3>Yerba Orgánica</h3>
+            <p>Nacionalidad: Argentina</p>
+            <p>Precio: $14.99</p>
+            <p>Calidad: Orgánica</p>
+            <p>Peso: 300g</p>
+            <button class="add-to-cart" data-nombre="Yerba Orgánica" data-precio="14.99">Agregar al Carrito</button>
+        </div>
+    </section>
+
+    <section class="cart">
+        <h2>Carrito de Compras</h2>
+        <p>Productos en el carrito: <span id="cart-item-count">0</span></p>
+        <ul id="cart-items">
+            <!-- Los elementos del carrito se agregarán aquí -->
+        </ul>
+        <p>Total: $<span id="cart-total">0.00</span></p>
+        <button id="checkout-button">Ir a Pagar</button>
+    </section>
+<section class="payment-methods">
+ 
+
+
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
