@@ -53,3 +53,20 @@ document.addEventListener("DOMContentLoaded", function () {
         window.location.href = "confirmar-pago.html";
     });
 });
+document.addEventListener("DOMContentLoaded", function () {
+    // ... (Código para agregar productos al carrito y otras funciones)
+
+    // Agregar evento de clic al botón de cambiar a modo normal
+    const normalModeButton = document.getElementById("normal-mode");
+    normalModeButton.addEventListener("click", () => {
+        // Remover clase para modo nocturno
+        document.body.classList.remove("dark-mode");
+    });
+
+    // Agregar evento de clic al botón de cambiar a modo nocturno
+    const darkModeButton = document.getElementById("dark-mode");
+    darkModeButton.addEventListener("click", () => {
+        // Agregar clase para modo nocturno
+        document.body.classList.add("dark-mode");
+    });
+});
