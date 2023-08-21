@@ -40,11 +40,11 @@ nav a:hover {
 
 h1 {
     margin: 0;
-    color: #333;
+    color: #0056b3;
 }
 
 p {
-    color: #666;
+    color: #0056b3;
 }
 
 /* Estilos para secciones */
@@ -888,3 +888,5 @@ body.dark-mode .mode-button#dark-mode {
 }
 
 /* Resto de tus estilos CSS */
+h2{color: #007BFF;}
+.subtitle{color: #1d7049;}
