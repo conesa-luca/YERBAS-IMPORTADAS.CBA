@@ -70,3 +70,17 @@ document.addEventListener("DOMContentLoaded", function () {
         document.body.classList.add("dark-mode");
     });
 });
+const submitButton = document.getElementById('submit-comment');
+submitButton.addEventListener('click', () => {
+    const username = document.getElementById('username').value;
+    const userComment = document.getElementById('user-comment').value;
+    
+    const commentElement = document.createElement('div');
+    commentElement.innerHTML = `<strong>${username}:</strong> ${userComment}`;
+    
+    document.getElementById('comments-list').appendChild(commentElement);
+    
+    // Limpiar el formulario
+    document.getElementById('username').value = '';
+    document.getElementById('user-comment').value = '';
+});
