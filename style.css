@@ -716,18 +716,31 @@ h2{color: #007BFF;}
         background-color: #007BFF;
         color: white;
     }
-    .texto-encerrado {
-        background-color: #f8f9fa; /* Color de fondo del cuadro */
-        padding: 20px; /* Espaciado interno del cuadro */
-        border: 1px solid #ced4da; /* Borde del cuadro */
-        border-radius: 5px; /* Bordes redondeados */
-        text-align: center; /* Alineación centrada */
+    .about-us-content {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin: 20px;
     }
     
-    /* Estilo para el texto resaltado dentro del cuadro */
-    .texto-destacado {
-        font-family: 'Archivo', sans-serif;
-        font-weight: bold;
-        font-size: 1.2rem;
-        color: #ff9900;
+    .about-us-category {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .about-us-category:hover {
+        transform: scale(1.05);
+    }
+    
+    .about-us-content h3 {
+        color: #333;
+        margin-top: 0;
+    }
+    
+    .about-us-content p {
+        color: #666;
+        line-height: 1.6;
     }
