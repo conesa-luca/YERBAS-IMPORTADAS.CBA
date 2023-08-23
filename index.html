@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     
     <title>Carrito de Compras - Yerbas Mate</title>
 </head>
@@ -15,15 +16,39 @@
     <button id="normal-mode" class="mode-button">Modo Normal</button>
     <button id="dark-mode" class="mode-button">Modo Nocturno</button>
     <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="confirmar-pago.html">pagar</a></li>
-                <li><a href="galeria.html">galeria de imagenes</a></li>
-            </ul>
-        </nav>
-
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="confirmar-pago.html">pagar</a></li>
+            <li><a href="galeria.html">galeria de imagenes</a></li>
+        </ul>
+    </nav>
+    
+        <h2>
+            <p>alguno de nuestros productos </p>
+        </h2>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.NMj-crWyTuu5O0BxgurgJwHaHa&pid=Api&P=0&h=300" class="d-block mx-auto" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.0D-rX4hmqRhZz-_JcFedrQHaHa&pid=Api&P=0&h=300" class="d-block mx-auto" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.YlK_DZQmMQyB2MqfDl9UGAHaHa&pid=Api&P=0&h=300" class="d-block mx-auto" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
     <section class="testimonials">
         <h2>Testimonios de Clientes</h2>
         <div class="testimonial">
@@ -86,12 +111,11 @@
             <button type="submit">Suscribirse</button>
         </form>
     </section>
-    
     <script src="script.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
     <footer>
         <p>&copy; 2023 Yerbas Importadas CBA. Todos los derechos reservados.</p>
     </footer>
-    
 </body>
 </html>
