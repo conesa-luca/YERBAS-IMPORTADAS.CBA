@@ -716,4 +716,18 @@ h2{color: #007BFF;}
         background-color: #007BFF;
         color: white;
     }
+    .texto-encerrado {
+        background-color: #f8f9fa; /* Color de fondo del cuadro */
+        padding: 20px; /* Espaciado interno del cuadro */
+        border: 1px solid #ced4da; /* Borde del cuadro */
+        border-radius: 5px; /* Bordes redondeados */
+        text-align: center; /* Alineación centrada */
+    }
     
+    /* Estilo para el texto resaltado dentro del cuadro */
+    .texto-destacado {
+        font-family: 'Archivo', sans-serif;
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: #ff9900;
+    }
