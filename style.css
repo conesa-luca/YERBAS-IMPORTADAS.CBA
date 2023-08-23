@@ -744,3 +744,27 @@ h2{color: #007BFF;}
         color: #666;
         line-height: 1.6;
     }
+    .navbar {
+        background-color: #198754;
+        border-radius: 20px; /* Botones redondos */
+        overflow: hidden;
+    }
+    
+    .navbar-toggler-icon {
+        background-color: white; /* Cambio de color del icono del botón */
+    }
+    
+    .navbar-nav .nav-link {
+        color: white;
+        font-family: 'Archivo', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 10px 15px;
+        border-radius: 20px; /* Botones redondos */
+        transition: background-color 0.3s, transform 0.2s; /* Efecto de transición al pasar el cursor */
+    }
+    
+    .navbar-nav .nav-link:hover {
+        background-color: #155d3a; /* Cambio de color al pasar el cursor */
+        transform: scale(1.1); /* Efecto de aumento de tamaño al pasar el cursor */
+    }
