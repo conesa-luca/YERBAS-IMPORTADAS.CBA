@@ -44,7 +44,7 @@
             <p>Precio: $3.500</p>
             <p>Calidad: premiun</p>
             <p>Peso: 1kgg</p>
-            <button class="add-to-cart" data-nombre="Yerba Tradicional" data-precio="3500">Agregar al Carrito</button>
+            <button class="add-to-cart" data-nombre="Yerba Tradicional" data-precio="3500">Agregar al pedido</button>
         </div>
         <div class="product">
             <img src="https://tse2.mm.bing.net/th?id=OIP.NMj-crWyTuu5O0BxgurgJwHaHa&pid=Api&P=0&h=180" alt="Yerba Suave">
@@ -53,7 +53,7 @@
             <p>Precio: $2.780</p>
             <p>Calidad: Suave</p>
             <p>Peso: 500g</p>
-            <button class="add-to-cart" data-nombre="Yerba Suave" data-precio="2780">Agregar al Carrito</button>
+            <button class="add-to-cart" data-nombre="Yerba Suave" data-precio="2780">Agregar al pedido</button>
         </div>
         <div class="product">
             <img src="https://tse1.mm.bing.net/th?id=OIP.0D-rX4hmqRhZz-_JcFedrQHaHa&pid=Api&P=0&h=180" alt="Yerba Intensa">
@@ -62,7 +62,7 @@
             <p>Precio: $4.000</p>
             <p>Calidad: Intensa</p>
             <p>Peso: 1kg</p>
-            <button class="add-to-cart" data-nombre="Yerba Intensa" data-precio="4000">Agregar al Carrito</button>
+            <button class="add-to-cart" data-nombre="Yerba Intensa" data-precio="4000">Agregar al Pedido</button>
         </div>
         <div class="product">
             <img src="https://tse3.mm.bing.net/th?id=OIP.YlK_DZQmMQyB2MqfDl9UGAHaHa&pid=Api&P=0&h=180" alt="Yerba Orgánica">
@@ -71,18 +71,26 @@
             <p>Precio: $2.290</p>
             <p>Calidad: Orgánica de estacionamiento natural</p>
             <p>Peso: 300g</p>
-            <button class="add-to-cart" data-nombre="Yerba Orgánica" data-precio="2290">Agregar al Carrito</button>
+            <button class="add-to-cart" data-nombre="Yerba Orgánica" data-precio="2290">Agregar al Pedido</button>
         </div>
     </section>
-
+    <div class="product-title">
+        <p>selecciona los productos y mandanos una captura de pantalla a nuestro whatsapp para enviarte tu pedido</p>
+    </div>
     <section class="cart">
-        <h2>Carrito de Compras</h2>
-        <p>Productos en el carrito: <span id="cart-item-count">0</span></p>
+        <h2>TU PEDIDO</h2>
+        <p>Productos Seleccionados: <span id="cart-item-count">0</span></p>
         <ul id="cart-items">
             <!-- Los elementos del carrito se agregarán aquí -->
         </ul>
         <p>Total: $<span id="cart-total">0.00</span></p>
-        <button id="checkout-button">Ir a Pagar</button>
+        <button id="checkout-button">
+            <a class="whatsapp-link" href="https://wa.me/+543514088669">
+                Ir a Pagar por WhatsApp
+            </a>
+        </button>
+        
+        
     </section>
 <section class="payment-methods">
  

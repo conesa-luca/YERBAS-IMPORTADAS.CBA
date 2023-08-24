@@ -809,3 +809,13 @@ h2{color: #007BFF;}
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: inline-block;
 }
+.whatsapp-link {
+    color: #25d366; /* Color verde de WhatsApp */
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.whatsapp-link:hover {
+    text-decoration: underline;
+}
