@@ -769,16 +769,17 @@ h2{color: #007BFF;}
         transform: scale(1.8); /* Efecto de aumento de tamaño al pasar el cursor */
     }
 /* Estilos del ícono de WhatsApp */
+/* Estilos del ícono de WhatsApp */
+/* Estilos del ícono de WhatsApp */
 .whatsapp-icon {
     position: fixed;
     bottom: 20px;
     right: 20px;
     z-index: 999;
-    padding: 50px;
+    padding: 30px;
     border-radius: 50%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s, box-shadow 0.2s;
-    display: none; /* Inicialmente oculto en pantallas pequeñas */
 }
 
 .whatsapp-icon img {
@@ -791,9 +792,20 @@ h2{color: #007BFF;}
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Mostrar el ícono solo en pantallas anchas (mayor a 768px) */
-@media (min-width: 768px) {
-    .whatsapp-icon {
-        display: block;
-    }
+/* Estilos para el título "alguno de nuestros productos" */
+.product-title {
+    text-align: center;
+    margin: 40px 0;
+    color: #198754; /* Color verde */
+}
+
+.product-title p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    background-color: #f8f9fa; /* Color de fondo suave */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
 }
