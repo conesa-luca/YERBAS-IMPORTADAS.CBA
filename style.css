@@ -871,3 +871,49 @@ h2{color: #007BFF;}
 .registration-button:hover {
     background-color: #157d4f;
 }
+/* Estilo base para el botón */
+.custom-submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #198754;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Efecto de hover */
+.custom-submit-button:hover {
+    background-color: #146c43;
+}
+
+/* Efecto de clic */
+.custom-submit-button:active {
+    transform: scale(0.95);
+}
+
+/* Animación al cargar */
+@keyframes fadeInScale {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.custom-submit-button.loading {
+    animation: fadeInScale 0.5s ease-in-out;
+}
+
+/* Estilos para el texto "Cargando" */
+.custom-submit-button.loading::after {
+    content: "Cargando...";
+    display: inline-block;
+    margin-left: 10px;
+    animation: fadeInScale 0.5s ease-in-out;
+}

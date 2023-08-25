@@ -84,3 +84,16 @@ submitButton.addEventListener('click', () => {
     document.getElementById('username').value = '';
     document.getElementById('user-comment').value = '';
 });
+// boton submit en sobre nosotros
+document.addEventListener('DOMContentLoaded', () => {
+    const submitButton = document.getElementById('submit-button');
+
+    submitButton.addEventListener('click', () => {
+        submitButton.classList.add('loading');
+
+        // Simula una acción de carga
+        setTimeout(() => {
+            submitButton.classList.remove('loading');
+        }, 2000); // Cambia esto al tiempo real de tu acción de carga
+    });
+});
