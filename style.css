@@ -158,11 +158,6 @@ body {
     background-color: #198754;
     color: white;
     cursor: pointer;}
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;}
 .featured-products,
 .product-categories,
 .social-links,
@@ -214,11 +209,6 @@ footer {
 .product-categories a {
     text-decoration: none;
     color: #007BFF;}
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;}
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -363,11 +353,6 @@ body {
     font-style: italic;}
 .testimonial p {
     color: #888;}
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;}
 @keyframes slide-up {
     from {
         opacity: 0;
@@ -909,4 +894,57 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+}
+/* Estilos para el footer */
+footer {
+    background-color: #f0f0f0; /* Cambia el color de fondo según tu preferencia */
+    color: #333; /* Cambia el color del texto según tu preferencia */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Agrega una sombra al footer */
+    transition: background-color 0.3s ease-in-out; /* Agrega una transición suave al color de fondo */
+}
+
+/* Cambia el color de fondo al pasar el mouse sobre el footer */
+footer:hover {
+    background-color: #ddd;
+}
+
+/* Estilos para el contenido del footer */
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para los íconos de redes sociales */
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333; /* Cambia el color de los íconos según tu preferencia */
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-media a:hover {
+    transform: scale(1.2); /* Efecto de aumento de tamaño al pasar el mouse sobre los íconos */
+}
+
+.social-media img {
+    width: 40px; /* Ajusta el tamaño de los íconos según tu preferencia */
+    height: 40px;
+}
+
+/* Estilos para la información de contacto */
+.contact-info {
+    margin-top: 20px;
+}
+
+/* Estilos para el texto de derechos de autor */
+.footer-text {
+    margin-top: 20px;
+    font-size: 14px; /* Cambia el tamaño del texto según tu preferencia */
 }
